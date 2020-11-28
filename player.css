@@ -1,0 +1,26 @@
+#player-container{
+    border: 2px solid gray;
+    width: 50%;
+    margin: auto;
+    height: 50vh;
+    margin-top: 100px;
+    border-radius: 12px;
+    position: relative;
+}
+#player-container iframe{
+    width: 100%;
+    height: 100%
+}
+#loader{
+    display: none;
+}
+#round{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+}

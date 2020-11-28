@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#topbar span{
+    color: black;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+form{
+    background-color: lightgreen;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+form input{
+    padding: 8px 16px;
+    margin: 24px 0px;
+    font-size: 20px;
+}
